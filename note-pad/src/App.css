@@ -1,0 +1,73 @@
+
+body {
+  background-color: #f1f3fa;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #5146e5;
+  margin-bottom: 25px;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+h2 {
+  color: #333;
+}
+
+.note {
+  background: white;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border-left: 4px solid #5146e5;
+  overflow-wrap: anywhere;
+}
+
+.note h3 {
+  margin-top: 0;
+}
+
+.note p {
+  white-space: pre-wrap;
+}
+
+.note small {
+  color: #777;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+
